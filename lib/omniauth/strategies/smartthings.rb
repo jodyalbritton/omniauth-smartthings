@@ -23,9 +23,9 @@ module OmniAuth
       option :name, "smartthings"
 
       option :client_options, {
-        :site: 'https://graph.api.smartthings.com',
-        authorize_url: '/oauth/authorize',
-        token_url: '/oauth/token'
+        :site => 'https://graph.api.smartthings.com',
+        :authorize_url => '/oauth/authorize',
+        :token_url => '/oauth/token'
 
       }
 
