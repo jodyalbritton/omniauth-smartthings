@@ -17,7 +17,6 @@
 require File.expand_path(File.join('..', 'lib', 'omniauth', 'smartthings', 'version'), __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.add_dependency 'omniauth', '~> 1.0'
 
   gem.authors       = ['Jody Albritton']
   gem.email         = ['jody@getoptimus.com']
