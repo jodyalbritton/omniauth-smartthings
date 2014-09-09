@@ -14,8 +14,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-require File.expand_path(File.join('..', 'lib', 'omniauth', 'smartthings', 'version'), __FILE__)
-
+require File.expand_path('../lib/omniauth-smartthings/version', __FILE__)
 Gem::Specification.new do |gem|
 
   gem.authors       = ['Jody Albritton']
