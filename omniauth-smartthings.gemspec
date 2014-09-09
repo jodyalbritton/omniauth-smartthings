@@ -23,13 +23,11 @@ Gem::Specification.new do |gem|
   gem.email         = ['jody@getoptimus.com']
   gem.description   = 'The SmartThings strategy for OmniAuth'
   gem.summary       = 'The SmartThings strategy for OmniAuth 1.x'
-
+  gem.name          = 'omniauth-smartthings'
   gem.files         = `git ls-files`.split("\n")
   gem.name          = 'omniauth-smartthings'
   gem.require_paths = ['lib']
   gem.version       = OmniAuth::SmartThings::VERSION
-
-  gem.add_runtime_dependency 'omniauth-oauth2', '~> 1.1'
-
-  gem.add_development_dependency 'rake'
+  gem.add_dependency 'omniauth', '~> 1.0'
+  gem.add_dependency 'omniauth-oauth2', '~> 1.1'
 end
