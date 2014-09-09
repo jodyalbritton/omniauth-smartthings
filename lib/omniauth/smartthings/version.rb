@@ -15,7 +15,7 @@
 # limitations under the License.
 
 module OmniAuth
-  module smartthings
+  module SmartThings
     VERSION = '1.0'
   end
 end
